@@ -30,8 +30,12 @@ p{
     background: linear-gradient(to bottom right, hsl(243, 58%, 33%), 75%, hsl(243, 86%, 85%));
     margin-bottom: 65px;
     padding-bottom: 105px;
-    /*transform: skew(0deg, 5deg) translateY(-120px);*/  
+    transform: skew(0deg, 5deg) translateY(-120px);  
   
+}
+
+.container {
+    transform: skew(0deg, -5deg) translateY(120px); ;  
 }
 
 .logo1 {
